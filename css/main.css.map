@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sources":["../scss/abstracts/_typography.scss","main.css"],"names":[],"mappings":"AACQ,+EAAA;AAMR;EACE,mBAAA;EACA,gBAAA;ACLF;;ADQA;EACE,mBAAA;EACA,gBAAA;ACLF;;ADQA;EACE,eAAA;EACA,gBAAA;ACLF;;ADQA;EACE,oBAAA;EACA,gBAAA;ACLF;;ADQA;EACE,oBAAA;EACA,gBAAA;ACLF","file":"main.css"}

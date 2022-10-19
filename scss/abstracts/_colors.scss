@@ -1,0 +1,16 @@
+// Global
+$cta: #0079ff;
+
+// Light Mode
+$textLM: #4b6a9b;
+$modeLM: #697c9a;
+$userStats: #2b3442;
+$bgColor: #f6f8ff;
+$cardBGC: #fefefe;
+
+// Dark Mode
+[data-theme="dark"] {
+  $userStatsDM: #ffffff;
+  $bgColor: #141d2f;
+  $cardBGC: #1e2a47;
+}

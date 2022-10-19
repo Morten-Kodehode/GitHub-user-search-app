@@ -8,5 +8,67 @@
     <script src="js/script.js"></script>
     <title>GitHUb User Search App</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="head">
+        <h1 id="logo">devfinder</h1>
+        <div class="modeChange">
+          <h4 id="modeChange">Dark</h4>
+          <img src="assets/icon-moon.svg" />
+        </div>
+      </header>
+      <!-- Search bar -->
+      <div class="searchBar">
+        <input type="search" name="searchBar" id="SearchBar" />
+      </div>
+      <!-- User Card / Main Content -->
+      <main class="cardContainer">
+        <div class="cardContent__top">
+          <h1 id="userName">The Octocat</h1>
+          <h3 id="userHandle">@octocat</h3>
+          <p id="userJoinDate">Joined 25 January 2011</p>
+          <!-- User bio -->
+          <p id="userBio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            dolores voluptate fugit harum molestiae.
+          </p>
+        </div>
+        <!-- User Stats -->
+        <div class="cardContent__middle">
+          <div id="stat">
+            <h3>Repos</h3>
+            <div id="repos">8</div>
+          </div>
+          <div id="stat">
+            <h3>Followers</h3>
+            <div id="followers">1243</div>
+          </div>
+          <div id="stat">
+            <h3>Repos</h3>
+            <div id="following">321</div>
+          </div>
+        </div>
+        <!-- User location, website, twitter, work place -->
+        <div class="cardContent__bottom">
+          <div class="location">
+            <img src="assets/icon-location.svg" />
+            <p id="userLocation">San Francisco</p>
+          </div>
+          <div class="twitter">
+            <img src="assets/icon-twitter.svg" />
+            <p id="userLocation">Something</p>
+          </div>
+          <div class="website">
+            <img src="assets/icon-website.svg" />
+            <p id="userLocation">octocat.com</p>
+          </div>
+          <div class="company">
+            <img src="assets/icon-company.svg" />
+            <p id="userLocation">GitHub</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
